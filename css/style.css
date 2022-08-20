@@ -1,0 +1,379 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  del {
+    text-decoration: line-through;
+  }
+  body {
+    font-family: Gordita, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 500;
+  }
+  input,
+  textarea,
+  select {
+    font-family: Gordita, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+  a {
+    color: rgb(0, 0, 0);
+  }
+  .thumb {
+    display: block;
+  }
+  .thumb img {
+    display: block;
+    width: 100%;
+  }
+  p {
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: Gordita, Arial;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+  }
+  .hidden {
+    display: none;
+  }
+  br.clear {
+    clear: both;
+    line-height: 0;
+  }
+  .wrapper {
+    width: 90%;
+    margin: 0px auto;
+    max-width: 1200px;
+  }
+  .flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @font-face {
+    font-family: 'Gordita Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Regular'), url('../font/Gordita/Regular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Regular Italic'), url('../font/Gordita/Regular Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Thin'), url('../font/Gordita/Thin.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Thin Italic'), url('../font/Gordita/Thin Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Light'), url('../font/Gordita/Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Light Italic'), url('../font/Gordita/Light Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Medium'), url('../font/Gordita/Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Medium Italic'), url('../font/Gordita/Medium Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Bold'), url('../font/Gordita/Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Bold Italic'), url('../font/Gordita/Bold Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Black'), url('../font/Gordita/Black.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Black Italic'), url('../font/Gordita/Black Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Ultra'), url('../font/Gordita/Ultra.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Ultra Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Ultra Italic'), url('../font/Gordita/Ultra Italic.woff') format('woff');
+    }
+
+header {
+
+}
+header section.wrapper {
+    
+}
+header section.container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+header section.container div.left {
+
+}
+header section.container div.left h1 {
+  width: 50%;  
+}
+
+header section.container div.left h1 img {
+  width: 70px; 
+}
+header section.container div.middle {
+   width: 46%; 
+}
+header section.container div.middle ul {
+  display: flex;
+  
+    
+}
+header section.container div.middle ul li {
+   margin-right: 30px; 
+}
+header section.container div.middle ul li a.button {
+    border: 1px solid #0021e1;
+    border-radius: 30px;
+    padding: 8px 12px;
+    background-color: #0021e1;
+    color: #ffffff;
+    font-weight: 500; 
+}
+#spotlight {
+  margin-top: 70px;
+}
+#spotlight section.wrapper {
+  
+}
+#spotlight section.container {
+  display: flex;
+  justify-content: space-between;
+}
+#spotlight section.container div.left {
+  width: 45%;
+}
+#spotlight section.container div.left div.icon_container {
+  display: flex;
+  align-items: center;
+  
+}
+#spotlight section.container div.left div.img {
+  margin-right: 10px;
+  
+}
+#spotlight section.container div.left div.img img {
+  width: 14px;
+}
+#spotlight section.container div.left h6 {
+  color: #0021e1;
+  font-weight: 700;
+  font-size: 14px;
+}
+#spotlight section.container div.left h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+#spotlight section.container div.left h1 span {
+  font-size: 50px;
+  color: #0021e1;
+  font-weight: 700;
+}
+#spotlight section.container div.left p {
+  margin-top: 35px;
+  width: 300px;
+  
+}
+#spotlight section.container div.left form {
+  margin-top: 50px;
+}
+#spotlight section.container div.left form input {
+  
+}
+#spotlight section.container div.left form button {
+  
+}
+#spotlight section.container div.right {
+  width: 45%;
+}
+#spotlight section.container div.right div.container {
+  display: flex;
+
+  
+}
+#spotlight section.container div.right div.container div.img1 {
+  margin-right: 10px;
+  display: inline-block;
+
+}
+#spotlight section.container div.right div.container div.img1.p {
+  margin-top: 15%;
+  
+}
+#spotlight section.container div.right div.container div.img1 img {
+  border-radius: 20px; 
+  width: 100%;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
