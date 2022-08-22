@@ -51,7 +51,7 @@ a {
 p {
   line-height: 1.9em;
   font-size: 16px;
-  font-family: 'Gordita Medium', Arial;
+  font-family: "Gordita Medium", Arial;
   color: #7f7f7f;
   font-weight: 600;
 }
@@ -84,7 +84,8 @@ br.clear {
   font-family: "Gordita Regular";
   font-style: normal;
   font-weight: 600;
-  src: local("Gordita Regular"), url("../font/Gordita\ Regular.woff") format("woff");
+  src: local("Gordita Regular"),
+    url("../font/Gordita\ Regular.woff") format("woff");
 }
 
 @font-face {
@@ -102,18 +103,19 @@ br.clear {
 }
 
 @font-face {
-  font-family: 'Gordita Black';
+  font-family: "Gordita Black";
   font-style: bold;
   font-weight: 500;
-  src: local('Gordita Black'), url('../font/ Black.woff') format('woff');
+  src: local("Gordita Black"), url("../font/ Black.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Gordita Medium';
+  font-family: "Gordita Medium";
   font-style: normal;
   font-weight: 400;
-  src: local('Gordita Medium'), url('//font/Gordita\ Medium.woff') format('woff');
-  }
+  src: local("Gordita Medium"),
+    url("//font/Gordita\ Medium.woff") format("woff");
+}
 
 header {
   padding: 30px 0;
@@ -125,7 +127,8 @@ header section.container {
   align-items: center;
 }
 
-header section.container div.left {}
+header section.container div.left {
+}
 
 header section.container div.left h1 {
   width: 70%;
@@ -145,9 +148,11 @@ header section.container div.middle ul {
   justify-content: space-between;
 }
 
-header section.container div.middle ul li {}
+header section.container div.middle ul li {
+}
 
-header section.container div.middle ul li:last-child {}
+header section.container div.middle ul li:last-child {
+}
 
 header section.container div.middle ul li a {
   color: #7f7f7f;
@@ -275,7 +280,8 @@ header section.container div.middle ul li a.button {
   margin-top: 50px;
 }
 
-#spotlight section.wrapper div.bottom div.p {}
+#spotlight section.wrapper div.bottom div.p {
+}
 
 #spotlight section.wrapper div.bottom div.p small {
   border-top: 1px solid #7f7f7f;
@@ -291,7 +297,8 @@ header section.container div.middle ul li a.button {
   width: 75%;
 }
 
-#spotlight section.wrapper div.bottom ul li {}
+#spotlight section.wrapper div.bottom ul li {
+}
 
 #spotlight section.wrapper div.bottom ul li a {
   display: block;
@@ -313,7 +320,8 @@ header section.container div.middle ul li a.button {
   align-items: center;
 }
 
-#archive section.container div.left {}
+#archive section.container div.left {
+}
 
 #archive section.container div.left h5 {
   font-size: 17px;
@@ -381,7 +389,8 @@ header section.container div.middle ul li a.button {
   padding: 5%;
 }
 
-#help section.wrapper {}
+#help section.wrapper {
+}
 
 #help section.wrapper section.container {
   text-align: center;
@@ -392,7 +401,6 @@ header section.container div.middle ul li a.button {
   flex-direction: column;
   align-items: center;
   text-align: center;
-
 }
 
 #help section.wrapper section.container div.top h1 {
@@ -415,7 +423,6 @@ header section.container div.middle ul li a.button {
 #help section.wrapper section.container div.bottom ul {
   display: flex;
   justify-content: space-between;
-
 }
 
 #help section.wrapper section.container div.bottom ul li {
@@ -481,58 +488,54 @@ header section.container div.middle ul li a.button {
   font-weight: bold;
 }
 
-#middle { 
+#middle {
   padding: 5%;
 }
 
-#middle section.wrapper { 
-
+#middle section.wrapper {
 }
 
-#middle section.wrapper section.container { 
+#middle section.wrapper section.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
-#middle section.wrapper section.container div.left { 
-  width: 40%;
+#middle section.wrapper section.container div.left {
+  width: 50%;
 }
 
-#middle section.wrapper section.container div.left div.img { 
+#middle section.wrapper section.container div.left div.img {
+  width: 100%;
+}
+
+#middle section.wrapper section.container div.left div.img img {
   display: block;
   width: 100%;
 }
 
-#middle section.wrapper section.container div.left div.img img { 
-
-}
-
-#middle section.wrapper section.container div.right { 
+#middle section.wrapper section.container div.right {
   width: 40%;
 }
 
-#middle section.wrapper section.container div.right div.content { 
-
+#middle section.wrapper section.container div.right div.content {
 }
 
-#middle section.wrapper section.container div.right div.content h4 { 
+#middle section.wrapper section.container div.right div.content h4 {
   margin-bottom: 15px;
   font-size: 25px;
   color: #ffb269;
   font-weight: 600;
 }
 
-#middle section.wrapper section.container div.right div.content h1 { 
+#middle section.wrapper section.container div.right div.content h1 {
   margin-bottom: 35px;
   font-size: 40px;
   color: #000;
   font-weight: 700;
-  
 }
 
-#middle section.wrapper section.container div.right div.content p { 
+#middle section.wrapper section.container div.right div.content p {
   margin-bottom: 30px;
 }
 #middle section.wrapper section.container div.right div.content small {
@@ -540,36 +543,3 @@ header section.container div.middle ul li a.button {
   font-weight: 500;
   font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
