@@ -127,8 +127,7 @@ header section.container {
   align-items: center;
 }
 
-header section.container div.left {
-}
+header section.container div.left {}
 
 header section.container div.left h1 {
   width: 70%;
@@ -148,11 +147,9 @@ header section.container div.middle ul {
   justify-content: space-between;
 }
 
-header section.container div.middle ul li {
-}
+header section.container div.middle ul li {}
 
-header section.container div.middle ul li:last-child {
-}
+header section.container div.middle ul li:last-child {}
 
 header section.container div.middle ul li a {
   color: #7f7f7f;
@@ -273,39 +270,37 @@ header section.container div.middle ul li a.button {
   display: block;
 }
 
-#spotlight section.wrapper div.bottom {
+#spotlight div.bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
 }
 
-#spotlight section.wrapper div.bottom div.p {
-}
+#spotlight div.bottom div.p {}
 
-#spotlight section.wrapper div.bottom div.p small {
+#spotlight div.bottom div.p small {
   border-top: 1px solid #7f7f7f;
   font-weight: 300;
   display: block;
   font-size: 17px;
 }
 
-#spotlight section.wrapper div.bottom ul {
+#spotlight div.bottom ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 75%;
 }
 
-#spotlight section.wrapper div.bottom ul li {
-}
+#spotlight div.bottom ul li {}
 
-#spotlight section.wrapper div.bottom ul li a {
+#spotlight div.bottom ul li a {
   display: block;
   width: 80%;
 }
 
-#spotlight section.wrapper div.bottom ul li img {
+#spotlight div.bottom ul li img {
   display: block;
   width: 100%;
 }
@@ -320,8 +315,7 @@ header section.container div.middle ul li a.button {
   align-items: center;
 }
 
-#archive section.container div.left {
-}
+#archive section.container div.left {}
 
 #archive section.container div.left h5 {
   font-size: 17px;
@@ -389,21 +383,18 @@ header section.container div.middle ul li a.button {
   padding: 5%;
 }
 
-#help section.wrapper {
-}
-
-#help section.wrapper section.container {
+#help section.container {
   text-align: center;
 }
 
-#help section.wrapper section.container div.top {
+#help section.container div.top {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-#help section.wrapper section.container div.top h1 {
+#help section.container div.top h1 {
   font-size: 60px;
   font-weight: 600;
   color: #000;
@@ -411,21 +402,21 @@ header section.container div.middle ul li a.button {
   width: 65%;
 }
 
-#help section.wrapper section.container div.top small {
+#help section.container div.top small {
   font-size: 20px;
   font-weight: normal;
 }
 
-#help section.wrapper section.container div.bottom {
+#help section.container div.bottom {
   margin-top: 90px;
 }
 
-#help section.wrapper section.container div.bottom ul {
+#help section.container div.bottom ul {
   display: flex;
   justify-content: space-between;
 }
 
-#help section.wrapper section.container div.bottom ul li {
+#help section.container div.bottom ul li {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -435,7 +426,7 @@ header section.container div.middle ul li a.button {
   justify-content: space-evenly;
 }
 
-#help section.wrapper section.container div.bottom ul li div.round {
+#help section.container div.bottom ul li div.round {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -446,27 +437,27 @@ header section.container div.middle ul li a.button {
   justify-content: center;
 }
 
-#help section.wrapper section.container div.bottom ul li div.round div.img {
+#help section.container div.bottom ul li div.round div.img {
   width: 70%;
 }
 
-#help section.wrapper section.container div.bottom ul li div.round div.img img {
+#help section.container div.bottom ul li div.round div.img img {
   display: block;
   width: 100%;
 }
 
-#help section.wrapper section.container div.bottom ul li div.content {
+#help section.container div.bottom ul li div.content {
   text-align: center;
 }
 
-#help section.wrapper section.container div.bottom ul li div.content h2 {
+#help section.container div.bottom ul li div.content h2 {
   font-size: 35px;
   color: #000;
   font-weight: bold;
   margin-bottom: 30px;
 }
 
-#help section.wrapper section.container div.bottom ul li div.content p {
+#help section.container div.bottom ul li div.content p {
   font-size: 20px;
   width: 65%;
   margin: 0 auto;
@@ -474,7 +465,7 @@ header section.container div.middle ul li a.button {
   font-weight: 300;
 }
 
-#help section.wrapper section.container div.bottom div.button {
+#help section.container div.bottom div.button {
   border-radius: 50px;
   padding: 28px 60px;
   background-color: #0021e1;
@@ -482,64 +473,450 @@ header section.container div.middle ul li a.button {
   margin-top: 60px;
 }
 
-#help section.wrapper section.container div.bottom div.button a.butoon {
+#help section.container div.bottom div.button a.butoon {
   color: #ffffff;
   font-size: 25px;
   font-weight: bold;
 }
 
-#middle {
-  padding: 5%;
+.middle {
+  padding: 6% 0;
 }
 
-#middle section.wrapper {
-}
-
-#middle section.wrapper section.container {
+.middle section.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#middle section.wrapper section.container div.left {
+.middle section.container div.left {
   width: 50%;
 }
 
-#middle section.wrapper section.container div.left div.img {
+.middle section.container div.left div.img {
   width: 100%;
 }
 
-#middle section.wrapper section.container div.left div.img img {
+.middle section.container div.left div.img img {
   display: block;
   width: 100%;
 }
 
-#middle section.wrapper section.container div.right {
+.middle section.container div.right {
   width: 40%;
 }
 
-#middle section.wrapper section.container div.right div.content {
-}
+.middle section.container div.right div.content {}
 
-#middle section.wrapper section.container div.right div.content h4 {
+.middle section.container div.right div.content h4 {
   margin-bottom: 15px;
   font-size: 25px;
   color: #ffb269;
   font-weight: 600;
 }
 
-#middle section.wrapper section.container div.right div.content h1 {
+.middle section.container div.right div.content h1 {
   margin-bottom: 35px;
   font-size: 40px;
   color: #000;
   font-weight: 700;
 }
 
-#middle section.wrapper section.container div.right div.content p {
+.middle section.container div.right div.content p {
   margin-bottom: 30px;
 }
-#middle section.wrapper section.container div.right div.content small {
+
+.middle section.container div.right div.content small a {
   color: #4cabf8;
   font-weight: 500;
   font-size: 20px;
 }
+
+#price {
+  background-color: #f2fdfe;
+  height: 650px;
+  display: flex;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+#price section.container {
+  position: relative;
+}
+
+#price section.container div.box {
+  height: 450px;
+  width: 60%;
+  background-color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+  position: relative;
+}
+
+#price section.container div.box h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #060753;
+  margin-bottom: 60px;
+}
+
+#price section.container div.box div.money_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#price section.container div.box div.money_container div.money_div {
+  margin-right: 50px;
+}
+
+#price section.container div.box div.money_container div.money_div h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: "Gordita Bold";
+}
+
+#price section.container div.box div.money_container div.money_div h2 {}
+
+#price section.container div.box div.money_container div.money_div2 {
+  margin-left: 50px;
+}
+
+#price section.container div.box div.money_container div.money_div2 h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: "Gordita Bold";
+}
+
+#price section.container div.box div.money_container div.money_div2 h2 {}
+
+#price section.container div.box small {
+  margin-right: 500px;
+  font-size: 30px;
+}
+
+#price section.container div.box div.l_ine {
+  position: relative;
+}
+
+#price section.container div.box div.l_ine span.line {
+  margin-top: 30px;
+  width: 90%;
+  height: 20px;
+  background-color: #060753;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+#price section.container div.box span.round {
+  height: 20px;
+  width: 35px;
+  background-color: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  position: absolute;
+  left: 235px;
+  top: 30px;
+}
+
+#price section.container form {
+  border-radius: 20px;
+  width: 45%;
+  height: 100px;
+  box-shadow: 1px 1px 10px #b6c0ff;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -65px;
+  right: 30px;
+}
+
+#price section.container div.form input {
+  width: 65%;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Gordita Bold";
+}
+
+#price section.container div.form a.button {
+  border-radius: 14px;
+  height: 80px;
+  font-size: 20px;
+  width: 185px;
+  background-color: #0021e1;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 30px;
+  display: inline-block;
+}
+
+#support {
+  padding: 150px 0;
+  height: 100vh;
+}
+
+#support section.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#support section.container div.left {
+  width: 50%;
+}
+
+#support section.container div.left h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #000;
+  width: 75%;
+}
+
+#support section.container div.left p {
+  width: 80%;
+  margin: 40px 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#support section.container div.left ul {}
+
+#support section.container div.left ul li {
+  display: flex;
+  align-items: center;
+}
+
+#support section.container div.left ul li:first-child {
+  margin-bottom: 20px;
+}
+
+#support section.container div.left ul li div.round {
+  background: #4d46c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 4px;
+  margin-right: 10px;
+}
+
+#support section.container div.left ul li div.round div.arrow {
+  width: 70%;
+}
+
+#support section.container div.left ul li img {
+  display: block;
+  width: 100%;
+  filter: invert(1);
+}
+
+#support section.container div.left a.button {
+  color: #fff;
+  background: #060fe6;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+#support section.container div.right {
+  width: 60%;
+}
+
+#support section.container div.right ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#support section.container div.right ul li {
+  width: 48%;
+}
+
+#support section.container div.right ul li:first-child {
+  margin-bottom: 50px;
+}
+
+#support section.container div.right ul li:nth-child(2) {
+  margin-bottom: 50px;
+}
+
+#support section.container div.right ul li div.logo {
+  width: 18%;
+  margin-bottom: 20px;
+}
+
+#support section.container div.right ul li div.logo img {
+  display: block;
+  width: 100%;
+}
+
+#support section.container div.right ul li h3 {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#support section.container div.right ul li p {
+  width: 65%;
+  margin-bottom: 20px;
+}
+
+#support section.container div.right ul li a {
+  color: #7448c3;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#testimonial {
+  padding: 50px 0;
+}
+
+#testimonial div.top {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#testimonial div.top h2 {
+  color: #000;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#testimonial div.top p {
+  font-family: "Gordita Regular";
+  font-size: 18px;
+}
+
+#testimonial div.bottom {}
+
+#testimonial div.bottom ul.main {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#testimonial div.bottom ul.main li {
+  width: 30%;
+  margin: 0 auto;
+}
+
+#testimonial div.bottom ul.main li div.avatar {
+  width: 18%;
+  margin: 0 auto;
+}
+
+#testimonial div.bottom ul.main li div.avatar img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}
+
+#testimonial div.bottom ul.main li ul.star {
+  display: flex;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#testimonial div.bottom ul.main li ul.star li {}
+
+#testimonial div.bottom ul.main li ul.star li img {
+  display: block;
+  width: 70%;
+}
+
+#testimonial div.bottom ul.main li h3 {
+  color: #000;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+#testimonial div.bottom ul.main li p {
+  margin-top: 15px;
+  width: 95%;
+  font-family: "Gordita Thin";
+  font-size: 18px;
+}
+
+#subscribe {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+#subscribe section.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 90px;
+  background: #4d53e5;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#subscribe section.container div.left {
+  text-align: center;
+}
+
+#subscribe section.container div.left h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#subscribe section.container div.left p {
+  color: #fff;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#subscribe section.container div.right {
+  width: 55%;
+  position: relative;
+}
+
+#subscribe section.container div.right form {
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+}
+
+#subscribe section.container div.right form input {
+  width: 60%;
+  padding: 20px 15px;
+  font-size: 15px;
+  font-family: "Gordita light";
+  background: #fff;
+  border-radius: 15px 0 0 15px;
+  text-align: left;
+}
+
+#subscribe section.container div.right form button {
+  color: #fff;
+  background: #2fb552;
+  padding: 20px 15px;
+  border-radius: 0 15px 15px 0;
+  text-align: left;
+  width: 140px;
+}
+
+#subscribe section.container div.right div.box {
+  background: #fff;
+  padding: 3px;
+  width: 6%;
+  position: absolute;
+  border-radius: 10px;
+  right: 88px;
+  top: 11px;
+}
+
+#subscribe section.container div.right div.box div.arrow {}
+
+#subscribe section.container div.right div.box div.arrow img {
+  display: block;
+  width: 100%;
+}
+
