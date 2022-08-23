@@ -9,689 +9,575 @@
   outline: none;
   box-sizing: border-box;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
 del {
   text-decoration: line-through;
 }
-
 body {
   font-family: Gordita, Arial, Helvetica, sans-serif;
   font-size: 17px;
-  color: #7f7f7f;
+  color: rgb(127, 127, 127);
   overflow-x: hidden;
   min-width: 320px;
   font-weight: 500;
 }
-
 input,
 textarea,
 select {
   font-family: "Gordita Regular", Arial, Helvetica, sans-serif;
   font-weight: 500;
 }
-
 a {
   color: rgb(0, 0, 0);
 }
-
 .thumb {
   display: block;
 }
-
 .thumb img {
   display: block;
   width: 100%;
 }
-
 p {
   line-height: 1.9em;
   font-size: 16px;
   font-family: "Gordita Medium", Arial;
-  color: #7f7f7f;
+  color: rgb(127, 127, 127);
   font-weight: 600;
 }
 
 h1 {
   line-height: 1.5em;
 }
-
 .hidden {
   display: none;
 }
-
 br.clear {
   clear: both;
   line-height: 0;
 }
-
 .wrapper {
   width: 85%;
   margin: 0px auto;
   max-width: 1440px;
 }
-
 .flex-wrapper {
   display: flex;
   justify-content: space-between;
 }
-
 @font-face {
   font-family: "Gordita Regular";
   font-style: normal;
   font-weight: 600;
   src: local("Gordita Regular"),
-    url("../font/Gordita\ Regular.woff") format("woff");
+    url("../font/Gordita Regular.woff") format("woff");
 }
-
 @font-face {
   font-family: "Gordita Bold";
   font-style: normal;
   font-weight: 600;
-  src: local("Gordita Bold"), url("../font/Gordita\ Bold.woff") format("woff");
+  src: local("Gordita Bold"), url("../font/Gordita Bold.woff") format("woff");
 }
-
 @font-face {
   font-family: "Gordita Thin";
   font-style: normal;
   font-weight: 600;
-  src: local("Gordita Thin"), url("../font/Gordita\ Light.woff") format("woff");
+  src: local("Gordita Thin"), url("../font/Gordita Light.woff") format("woff");
 }
-
 @font-face {
   font-family: "Gordita Black";
-  font-style: bold;
   font-weight: 500;
   src: local("Gordita Black"), url("../font/ Black.woff") format("woff");
 }
-
 @font-face {
   font-family: "Gordita Medium";
   font-style: normal;
   font-weight: 400;
-  src: local("Gordita Medium"),
-    url("//font/Gordita\ Medium.woff") format("woff");
+  src: local("Gordita Medium"), url("//font/Gordita Medium.woff") format("woff");
 }
-
 header {
-  padding: 30px 0;
+  padding: 30px 0px;
 }
-
 header section.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-header section.container div.left {}
-
+header section.container div.left {
+}
 header section.container div.left h1 {
   width: 70%;
 }
-
 header section.container div.left h1 img {
   display: block;
   width: 100%;
 }
-
 header section.container div.middle {
   width: 60%;
 }
-
 header section.container div.middle ul {
   display: flex;
   justify-content: space-between;
 }
-
-header section.container div.middle ul li {}
-
-header section.container div.middle ul li:last-child {}
-
+header section.container div.middle ul li {
+}
+header section.container div.middle ul li:last-child {
+}
 header section.container div.middle ul li a {
-  color: #7f7f7f;
+  color: rgb(127, 127, 127);
   font-size: 20px;
   font-weight: 600;
 }
-
 header section.container div.middle ul li a.button {
   border-radius: 30px;
   padding: 18px 30px;
-  background-color: #0021e1;
-  color: #ffffff;
+  background-color: rgb(0, 33, 225);
+  color: rgb(255, 255, 255);
 }
-
 #spotlight {
-  padding: 70px 0;
+  padding: 70px 0px;
 }
-
 #spotlight section.container {
   display: flex;
   justify-content: space-between;
 }
-
 #spotlight section.container div.left {
   width: 45%;
 }
-
 #spotlight section.container div.left div.icon_container {
   display: flex;
   align-items: center;
 }
-
 #spotlight section.container div.left div.img {
   width: 25px;
 }
-
 #spotlight section.container div.left div.img img {
   display: block;
   width: 100%;
 }
-
 #spotlight section.container div.left h6 {
-  color: #1e27eb;
+  color: rgb(30, 39, 235);
   margin-left: 20px;
   font-size: 18px;
   font-weight: 600;
 }
-
 #spotlight section.container div.left h1 {
   font-size: 50px;
   font-weight: 900;
   margin-top: 50px;
   width: 90%;
-  color: #000;
+  color: rgb(0, 0, 0);
 }
-
 #spotlight section.container div.left h1 span {
   font-size: 55px;
-  color: #0021e1;
+  color: rgb(0, 33, 225);
   font-weight: 700;
 }
-
 #spotlight section.container div.left p {
   margin-top: 35px;
   width: 335px;
-  color: #7f7f7f;
+  color: rgb(127, 127, 127);
   font-weight: 600;
 }
-
 #spotlight section.container div.left form {
   margin-top: 50px;
   position: relative;
 }
-
 #spotlight section.container div.left form input {
   border-radius: 20px;
   width: 90%;
   height: 80px;
-  padding: 10px;
-  box-shadow: 1px 1px 10px #b6c0ff;
+  padding: 10px 10px 10px 32px;
+  box-shadow: rgb(182, 192, 255) 1px 1px 10px;
   font-weight: bold;
 }
-
 #spotlight section.container div.left form button {
   border-radius: 14px;
   height: 70px;
   font-size: 20px;
   width: 185px;
-  background-color: #0021e1;
-  color: #ffffff;
+  background-color: rgb(0, 33, 225);
+  color: rgb(255, 255, 255);
   font-weight: 500;
   position: absolute;
-  left: 320px;
+  left: 380px;
   bottom: 5px;
   cursor: pointer;
 }
-
 #spotlight section.container div.right {
   width: 45%;
 }
-
 #spotlight section.container div.right div.container {
   display: flex;
 }
-
 #spotlight section.container div.right div.container div.img1 {
   margin-right: 10px;
   display: inline-block;
 }
-
 #spotlight section.container div.right div.container div.img1.p {
   margin-top: 15%;
 }
-
 #spotlight section.container div.right div.container div.img1 img {
   border-radius: 20px;
   width: 100%;
   display: block;
 }
-
 #spotlight div.bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
 }
-
-#spotlight div.bottom div.p {}
-
+#spotlight div.bottom div.p {
+}
 #spotlight div.bottom div.p small {
-  border-top: 1px solid #7f7f7f;
+  border-top: 1px solid rgb(127, 127, 127);
   font-weight: 300;
   display: block;
   font-size: 17px;
 }
-
 #spotlight div.bottom ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 75%;
 }
-
-#spotlight div.bottom ul li {}
-
+#spotlight div.bottom ul li {
+}
 #spotlight div.bottom ul li a {
   display: block;
   width: 80%;
 }
-
 #spotlight div.bottom ul li img {
   display: block;
   width: 100%;
 }
-
 #archive {
-  background-color: #f4f5fa;
-  padding: 90px 0;
+  background-color: rgb(244, 245, 250);
+  padding: 90px 0px;
 }
-
 #archive section.container {
   display: flex;
   align-items: center;
 }
-
-#archive section.container div.left {}
-
+#archive section.container div.left {
+}
 #archive section.container div.left h5 {
   font-size: 17px;
   font-weight: 500;
   margin-bottom: 20px;
 }
-
 #archive section.container div.left h1 {
   font-size: 30px;
   font-weight: 700;
-  color: #000;
+  color: rgb(0, 0, 0);
   width: 60%;
 }
-
 #archive section.container ul {
   display: flex;
   justify-content: space-between;
 }
-
 #archive section.container ul li {
   display: flex;
   justify-content: space-between;
 }
-
 #archive section.container ul li div.round {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  display: inline-block;
   display: flex;
   align-items: center;
   font-family: "Gordita Bold";
   justify-content: center;
 }
-
 #archive section.container ul li div.round div.img {
   width: 50%;
 }
-
 #archive section.container ul li div.round div.img img {
   width: 100%;
   display: block;
   filter: invert(1);
 }
-
 #archive section.container ul li div.content {
   width: 70%;
 }
-
 #archive section.container ul li div.content h2 {
   font-size: 25px;
-  color: #000;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 #archive section.container ul li div.content p {
   font-size: 15px;
-  color: #7f7f7f;
+  color: rgb(127, 127, 127);
   width: 85%;
   font-weight: 600;
 }
-
 #help {
   padding: 5%;
 }
-
 #help section.container {
   text-align: center;
 }
-
 #help section.container div.top {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-
 #help section.container div.top h1 {
   font-size: 60px;
   font-weight: 600;
-  color: #000;
+  color: rgb(0, 0, 0);
   margin-bottom: 40px;
   width: 65%;
 }
-
 #help section.container div.top small {
   font-size: 20px;
   font-weight: normal;
 }
-
 #help section.container div.bottom {
   margin-top: 90px;
 }
-
 #help section.container div.bottom ul {
   display: flex;
   justify-content: space-between;
 }
-
 #help section.container div.bottom ul li {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 30%;
   height: 400px;
-  background-color: #f4f5fa;
+  background-color: rgb(244, 245, 250);
   justify-content: space-evenly;
 }
-
 #help section.container div.bottom ul li div.round {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
-  display: inline-block;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 #help section.container div.bottom ul li div.round div.img {
   width: 70%;
 }
-
 #help section.container div.bottom ul li div.round div.img img {
   display: block;
   width: 100%;
 }
-
 #help section.container div.bottom ul li div.content {
   text-align: center;
 }
-
 #help section.container div.bottom ul li div.content h2 {
   font-size: 35px;
-  color: #000;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   margin-bottom: 30px;
 }
-
 #help section.container div.bottom ul li div.content p {
   font-size: 20px;
   width: 65%;
-  margin: 0 auto;
-  color: #7f7f7f;
+  margin: 0px auto;
+  color: rgb(127, 127, 127);
   font-weight: 300;
 }
-
 #help section.container div.bottom div.button {
   border-radius: 50px;
   padding: 28px 60px;
-  background-color: #0021e1;
+  background-color: rgb(0, 33, 225);
   display: inline-block;
   margin-top: 60px;
 }
-
 #help section.container div.bottom div.button a.butoon {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: 25px;
   font-weight: bold;
 }
-
 .middle {
-  padding: 6% 0;
+  padding: 6% 0px;
 }
-
 .middle section.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .middle section.container div.left {
   width: 50%;
 }
-
 .middle section.container div.left div.img {
   width: 100%;
 }
-
 .middle section.container div.left div.img img {
   display: block;
   width: 100%;
 }
-
 .middle section.container div.right {
   width: 40%;
 }
-
-.middle section.container div.right div.content {}
-
+.middle section.container div.right div.content {
+}
 .middle section.container div.right div.content h4 {
   margin-bottom: 15px;
   font-size: 25px;
-  color: #ffb269;
+  color: rgb(255, 178, 105);
   font-weight: 600;
 }
-
 .middle section.container div.right div.content h1 {
   margin-bottom: 35px;
   font-size: 40px;
-  color: #000;
+  color: rgb(0, 0, 0);
   font-weight: 700;
 }
-
 .middle section.container div.right div.content p {
   margin-bottom: 30px;
 }
-
 .middle section.container div.right div.content small a {
-  color: #4cabf8;
+  color: rgb(76, 171, 248);
   font-weight: 500;
   font-size: 20px;
 }
-
 #price {
-  background-color: #f2fdfe;
+  background-color: rgb(242, 253, 254);
   height: 650px;
   display: flex;
   margin-bottom: 100px;
   align-items: center;
 }
-
 #price section.container {
   position: relative;
 }
-
 #price section.container div.box {
-  height: 450px;
-  width: 60%;
-  background-color: #fff;
+  height: 458px;
+  width: 62%;
+  background-color: rgb(255, 255, 255);
   text-align: center;
-  margin: 0 auto;
+  margin: 0px auto;
   padding: 50px;
   position: relative;
 }
-
 #price section.container div.box h2 {
   font-size: 40px;
   font-weight: 600;
-  color: #060753;
+  color: rgb(6, 7, 83);
   margin-bottom: 60px;
 }
-
 #price section.container div.box div.money_container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 #price section.container div.box div.money_container div.money_div {
   margin-right: 50px;
 }
-
 #price section.container div.box div.money_container div.money_div h3 {
   font-size: 30px;
   margin-bottom: 10px;
   font-family: "Gordita Bold";
 }
-
-#price section.container div.box div.money_container div.money_div h2 {}
-
+#price section.container div.box div.money_container div.money_div h2 {
+}
 #price section.container div.box div.money_container div.money_div2 {
   margin-left: 50px;
 }
-
 #price section.container div.box div.money_container div.money_div2 h3 {
   font-size: 30px;
   margin-bottom: 10px;
   font-family: "Gordita Bold";
 }
-
-#price section.container div.box div.money_container div.money_div2 h2 {}
-
+#price section.container div.box div.money_container div.money_div2 h2 {
+}
 #price section.container div.box small {
   margin-right: 500px;
   font-size: 30px;
 }
-
 #price section.container div.box div.l_ine {
   position: relative;
 }
-
 #price section.container div.box div.l_ine span.line {
   margin-top: 30px;
   width: 90%;
   height: 20px;
-  background-color: #060753;
+  background-color: rgb(6, 7, 83);
   border-radius: 30px;
   display: inline-block;
 }
-
 #price section.container div.box span.round {
   height: 20px;
   width: 35px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border-radius: 50px;
   display: inline-block;
   position: absolute;
   left: 235px;
   top: 30px;
 }
-
 #price section.container form {
   border-radius: 20px;
   width: 45%;
   height: 100px;
-  box-shadow: 1px 1px 10px #b6c0ff;
+  box-shadow: rgb(182, 192, 255) 1px 1px 10px;
   display: flex;
   align-items: center;
   position: absolute;
   bottom: -65px;
   right: 30px;
+  background: rgb(255, 255, 255);
 }
-
 #price section.container div.form input {
   width: 65%;
   padding: 10px;
   font-size: 20px;
   font-family: "Gordita Bold";
 }
-
 #price section.container div.form a.button {
   border-radius: 14px;
-  height: 80px;
+  height: 82px;
   font-size: 20px;
-  width: 185px;
-  background-color: #0021e1;
-  color: #ffffff;
+  width: 178px;
+  background-color: rgb(0, 33, 225);
+  color: rgb(255, 255, 255);
   font-weight: 500;
-  padding: 30px;
+  padding: 31px;
   display: inline-block;
 }
-
 #support {
-  padding: 150px 0;
+  padding: 150px 0px;
   height: 100vh;
 }
-
 #support section.container {
   display: flex;
   justify-content: space-between;
 }
-
 #support section.container div.left {
   width: 50%;
 }
-
 #support section.container div.left h1 {
   font-size: 40px;
   font-weight: 900;
-  color: #000;
+  color: rgb(0, 0, 0);
   width: 75%;
 }
-
 #support section.container div.left p {
   width: 80%;
-  margin: 40px 0;
+  margin: 40px 0px;
   font-weight: 500;
   font-size: 18px;
 }
-
-#support section.container div.left ul {}
-
+#support section.container div.left ul {
+}
 #support section.container div.left ul li {
   display: flex;
   align-items: center;
 }
-
 #support section.container div.left ul li:first-child {
   margin-bottom: 20px;
 }
-
 #support section.container div.left ul li div.round {
-  background: #4d46c7;
+  background: rgb(77, 70, 199);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -699,224 +585,906 @@ header section.container div.middle ul li a.button {
   padding: 4px;
   margin-right: 10px;
 }
-
 #support section.container div.left ul li div.round div.arrow {
   width: 70%;
 }
-
 #support section.container div.left ul li img {
   display: block;
   width: 100%;
   filter: invert(1);
 }
-
 #support section.container div.left a.button {
-  color: #fff;
-  background: #060fe6;
+  color: rgb(255, 255, 255);
+  background: rgb(6, 15, 230);
   padding: 15px 20px;
   display: inline-block;
   margin-top: 30px;
   border-radius: 40px;
   font-size: 20px;
 }
-
 #support section.container div.right {
   width: 60%;
 }
-
 #support section.container div.right ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 #support section.container div.right ul li {
   width: 48%;
 }
-
 #support section.container div.right ul li:first-child {
   margin-bottom: 50px;
 }
-
 #support section.container div.right ul li:nth-child(2) {
   margin-bottom: 50px;
 }
-
 #support section.container div.right ul li div.logo {
   width: 18%;
   margin-bottom: 20px;
 }
-
 #support section.container div.right ul li div.logo img {
   display: block;
   width: 100%;
 }
-
 #support section.container div.right ul li h3 {
-  color: #000;
+  color: rgb(0, 0, 0);
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 #support section.container div.right ul li p {
   width: 65%;
   margin-bottom: 20px;
 }
-
 #support section.container div.right ul li a {
-  color: #7448c3;
+  color: rgb(116, 72, 195);
   font-size: 15px;
   font-weight: 600;
 }
-
 #testimonial {
-  padding: 50px 0;
+  padding: 50px 0px;
 }
-
 #testimonial div.top {
   text-align: center;
   margin-bottom: 80px;
 }
-
 #testimonial div.top h2 {
-  color: #000;
+  color: rgb(0, 0, 0);
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 20px;
 }
-
 #testimonial div.top p {
   font-family: "Gordita Regular";
   font-size: 18px;
 }
-
-#testimonial div.bottom {}
-
+#testimonial div.bottom {
+}
 #testimonial div.bottom ul.main {
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
-
 #testimonial div.bottom ul.main li {
   width: 30%;
-  margin: 0 auto;
+  margin: 0px auto;
 }
-
 #testimonial div.bottom ul.main li div.avatar {
   width: 18%;
-  margin: 0 auto;
+  margin: 0px auto;
 }
-
 #testimonial div.bottom ul.main li div.avatar img {
   display: block;
   width: 100%;
   border-radius: 50%;
 }
-
 #testimonial div.bottom ul.main li ul.star {
   display: flex;
   width: 30%;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 20px auto 0px;
 }
-
-#testimonial div.bottom ul.main li ul.star li {}
-
+#testimonial div.bottom ul.main li ul.star li {
+}
 #testimonial div.bottom ul.main li ul.star li img {
   display: block;
   width: 70%;
 }
-
 #testimonial div.bottom ul.main li h3 {
-  color: #000;
+  color: rgb(0, 0, 0);
   margin-top: 10px;
   font-weight: 600;
 }
-
 #testimonial div.bottom ul.main li p {
   margin-top: 15px;
   width: 95%;
   font-family: "Gordita Thin";
   font-size: 18px;
 }
-
 #subscribe {
   width: 80%;
-  margin: 0 auto;
-  padding: 50px 0;
+  margin: 0px auto;
+  padding: 50px 0px;
 }
-
 #subscribe section.container {
   display: flex;
   justify-content: space-between;
   padding: 70px 90px;
-  background: #4d53e5;
+  background: rgb(77, 83, 229);
   align-items: center;
   border-radius: 10px;
 }
-
 #subscribe section.container div.left {
   text-align: center;
 }
-
 #subscribe section.container div.left h2 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 40px;
   margin-bottom: 20px;
 }
-
 #subscribe section.container div.left p {
-  color: #fff;
+  color: rgb(255, 255, 255);
   width: 70%;
-  margin: 0 auto;
+  margin: 0px auto;
 }
-
 #subscribe section.container div.right {
   width: 55%;
   position: relative;
 }
-
 #subscribe section.container div.right form {
   display: flex;
   align-items: center;
-  /* position: relative; */
 }
-
 #subscribe section.container div.right form input {
   width: 60%;
   padding: 20px 15px;
   font-size: 15px;
   font-family: "Gordita light";
-  background: #fff;
-  border-radius: 15px 0 0 15px;
+  background: rgb(255, 255, 255);
+  border-radius: 15px 0px 0px 15px;
   text-align: left;
 }
-
 #subscribe section.container div.right form button {
-  color: #fff;
-  background: #2fb552;
-  padding: 20px 15px;
-  border-radius: 0 15px 15px 0;
+  color: rgb(255, 255, 255);
+  background: rgb(47, 181, 82);
+  padding: 21px 18px;
+  border-radius: 0px 15px 15px 0px;
   text-align: left;
   width: 140px;
 }
-
 #subscribe section.container div.right div.box {
-  background: #fff;
-  padding: 3px;
-  width: 6%;
+  background: rgb(255, 255, 255);
+  padding: 7px;
+  width: 5%;
   position: absolute;
   border-radius: 10px;
-  right: 88px;
-  top: 11px;
+  right: 170px;
+  top: 9px;
 }
-
-#subscribe section.container div.right div.box div.arrow {}
-
+#subscribe section.container div.right div.box div.arrow {
+}
 #subscribe section.container div.right div.box div.arrow img {
   display: block;
   width: 100%;
 }
+/* footer */
+footer { 
+  padding: 100px 50px;
+}
+footer section.top ul li a{
+color: #7d7d7d;
+font-size: 16px;
+}
+footer section.top ul li {
+margin-bottom: 20px;
+}
+footer section.top h3{
+margin-bottom: 20px;
+} 
+footer section.top { 
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #7d7d7d;
+  padding-bottom: 40px;
+}
+footer section.top div.one { 
+  width: 25%;
+}
+footer section.top div.one h1 { 
+    display: flex;
+margin-bottom: 20px;
+align-items: center;
+}
 
+footer section.top div.one h1 a { 
+    width: 15%;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer section.top div.one h1 a img { 
+    width: 100%;
+    display: block;
+}
+
+footer section.top p { 
+color: #7d7d7d;
+width: 85%;
+}
+
+footer section.top small{ 
+    color: #0f000f;
+    font-size: 23px;
+    font-weight: 600;
+}
+footer section.top h3{
+    color: #0f000f;
+    font-size: 23px;
+    font-weight: 600;
+}
+footer section.top div.two h3 { 
+    
+}
+
+footer section.top div.two ul { 
+
+}
+
+footer section.top div.two ul li { 
+
+}
+
+footer section.top  ul li a { 
+    font-size: 16px;
+}
+
+footer section.top div.three { 
+
+}
+
+footer section.top div.three h3 { 
+
+}
+
+footer section.top div.three ul { 
+
+}
+
+footer section.top div.three ul li { 
+
+}
+
+footer section.top div.three ul li a { 
+
+}
+
+footer section.top div.four { 
+
+}
+
+footer section.top div.four h3 { 
+
+}
+
+footer section.top div.four ul { 
+
+}
+
+footer section.top div.four ul li { 
+
+}
+
+footer section.top div.four ul li a { 
+
+}
+
+footer section.top div.fix { 
+
+}
+
+footer section.top div.fix h3 { 
+
+}
+
+footer section.top div.fix ul { 
+
+}
+
+footer section.top div.fix ul li { 
+
+}
+
+footer section.top div.fix ul li a { 
+
+}
+
+footer section.bottom { 
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+footer section.bottom p{
+color: #7d7d7d;
+}
+footer section.bottom div.left { 
+
+}
+
+footer section.bottom div.left p { 
+
+}
+
+footer section.bottom div.right { 
+
+}
+
+footer section.bottom div.right p { 
+
+}
+
+
+/* footer end */
+
+/* Respnsive */
+
+@media all and (max-width: 1380px) {
+  header section.container div.middle ul li a {
+    font-size: 15px;
+  }
+  #spotlight section.container div.left form input {
+    height: 75px;
+  }
+  #spotlight section.container div.left form button {
+    left: 265px;
+    height: 64.5px;
+  }
+  #spotlight div.bottom ul li a {
+    width: 70%;
+  }
+  #price section.container div.form a.button {
+    border-radius: 14px;
+    height: 65px;
+    font-size: 20px;
+    width: 150px;
+    padding: 24px;
+}
+#price section.container form {
+  border-radius: 20px;
+  width: 45%;
+  height: 87px;
+}
+#subscribe section.container div.right div.box {
+  padding: 4px;
+  width: 7%;
+  right: 61px;
+  top: 14px;
+}
+
+}
+/* 1280 */
+@media all and (max-width: 1280px) {
+    #spotlight section.container div.left {
+        width: 46%;
+}
+#spotlight section.container div.right {
+    width: 43%;
+}
+#spotlight section.container div.left form button {
+    left: 241px;
+    height: 63px;
+}
+#spotlight div.bottom div.p small {
+    font-size: 13px;
+}
+#archive section.container ul li div.round {
+    width: 75px;
+    height: 75px;
+}
+#archive section.container ul li div.content {
+    width: 74%;
+}
+#archive section.container div.left h1 {
+    font-size: 27px;
+}
+#help section.container div.top h1 {
+    font-size: 55px;
+    width: 60%;
+}
+
+#help section.container div.bottom ul li {
+    width: 27%;
+    height: 390px;
+}
+#help section.container div.bottom ul li div.round {
+    width: 100px;
+    height: 100px;
+}
+#help section.container div.bottom div.button {
+    padding: 24px 38px
+}
+.middle section.container div.left div.img {
+    width: 95%;
+}
+.middle section.container div.right div.content {
+    width: 90%;
+}
+#price section.container div.box small {
+    margin-right: 460px;
+    font-size: 26px;
+}
+#support section.container div.right {
+    width: 50%;
+}
+#support section.container div.left {
+    width: 60%;
+}
+#testimonial div.bottom ul.main li {
+    width: 25%;
+
+}
+#testimonial div.bottom ul.main li div.avatar {
+    width: 22%;
+}
+#subscribe section.container div.right div.box {
+    padding: 4px;
+    width: 8%;
+    right: 40px;
+    top: 13px;
+}
+}
+/* 1280 end */
+@media all and (max-width: 1080px) {
+    header section.container div.middle {
+        width: 65%;
+    }
+    header section.container div.middle ul li a.button {
+        padding: 16px 27px;
+    }
+    #spotlight section.container div.right {
+        width: 46%;
+    }
+    #spotlight section.container div.left h1 {
+        font-size: 45px;
+        width: 100%;
+    }
+    #spotlight section.container div.left form button {
+        height: 55px;
+        width: 141px;
+        left: 219px;
+        bottom: 9px;
+    }
+    #spotlight div.bottom ul {
+        width: 72%;
+    }
+    #archive section.container ul li div.round {
+        width: 65px;
+        height: 65px;
+    }
+    #archive section.container div.left h1 {
+        font-size: 30px;
+    }
+    #help section.container div.bottom ul li {
+        width: 31%;
+        height: 386px;
+    }
+    #help section.container div.bottom ul li div.round {
+        width: 80px;
+        height: 80px;
+    }
+   
+    #help section.container div.bottom div.button a.butoon {
+        
+        font-size: 18px;
+}
+.middle section.container div.left div.img {
+    width: 85%;
+}
+.middle section.container div.left {
+    width: 55%;
+}
+.middle section.container div.right {
+    width: 45%;
+}
+.middle section.container div.right div.content {
+    width: 100%;
+}
+.middle section.container div.left {
+    width: 49%;
+}
+#price section.container div.box small {
+    margin-right: 350px;
+    font-size: 23px;
+}
+#price section.container div.box h2 {
+    font-size: 37px;
+    margin-bottom: 49px;
+}
+#price section.container div.box span.round {
+    height: 20px;
+    width: 32px;
+    left: 138px;
+    top: 30px;
+}
+#price section.container form {
+    border-radius: 17px;
+    width: 49%;
+    height: 82px;
+}
+#price section.container div.form a.button {
+    border-radius: 10px;
+    height: 58px;
+    font-size: 18px;
+    width: 139px;
+    padding: 20px;
+}
+#support section.container div.right {
+    width: 50%;
+}
+#support section.container div.left {
+    width: 50%;
+}
+#testimonial div.top h2 {
+    font-size: 46px;
+    margin-bottom: 16px;
+}
+#testimonial div.bottom ul.main li {
+    width: 30%;
+}
+#subscribe section.container { 
+    padding: 66px 66px;
+    border-radius: 10px;
+}
+#subscribe section.container div.left h2 {
+    font-size: 36px;
+    margin-bottom: 21px;
+}
+#subscribe section.container div.right form input {
+    width: 111%;
+    padding: 16px 26px;
+    font-size: 13px;
+}
+#subscribe section.container div.right form button {
+    padding: 17px 42px;
+    width: 148px;
+}
+#subscribe section.container div.right div.box {
+    padding: 4px;
+    width: 9%;
+    right: 8px;
+    top: 10px;
+}
+footer section.top div.one {
+    width: 20%;
+}
+}
+/* 1080 end */
+@media all and (max-width: 980px) {
+    header section.container div.left h1 {
+        width: 55%;
+    }
+    header section.container div.middle {
+        width: 60%;
+    }
+    header section.container div.middle ul li a.button {
+        padding: 13px 20px;
+    }
+    #spotlight section.container div.left {
+        width: 50%;
+    }
+    #spotlight section.container div.left h1 {
+        font-size: 38px;
+        width: 100%;
+    }
+    #spotlight section.container div.right {
+        width: 40%;
+    }
+    #spotlight div.bottom ul {
+        width: 65%;
+    }
+    #spotlight div.bottom ul li {
+        margin-right: -10px;
+    }
+    #archive section.container div.left h1 {
+        font-size: 25px;
+    }
+    #help section.container div.top h1 {
+        font-size: 47px;
+        width: 58%;
+    }
+    #help section.container div.top small {
+        font-size: 17px;
+    }
+    #help section.container div.bottom ul li div.round {
+        width: 65px;
+        height: 65px;
+    }
+    #help section.container div.bottom ul li div.content h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    #help section.container div.bottom ul li div.content p {
+        font-size: 17px;
+        width: 64%;
+    }
+    #help section.container div.bottom div.button a.butoon {
+        font-size: 15px;
+    }
+    .middle section.container div.right div.content h1 {
+        margin-bottom: 29px;
+        font-size: 36px;
+    }
+    .middle section.container div.left div.img {
+        width: 90%;
+    }
+    .middle section.container div.right div.content h4 {
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+    p {
+        line-height: 1.9em;
+        font-size: 14px;
+    }
+    #price section.container div.box h2 {
+        font-size: 29px;
+        margin-bottom: 32px;
+    }
+    #price section.container div.box small {
+        margin-right: 290px;
+        font-size: 27px;
+    }
+    
+    #price section.container div.box {
+        height: 375px;
+        width: 64%;
+    }
+    #price section.container form {
+        border-radius: 17px;
+        width: 53%;
+        height: 78px;
+        bottom: -49px;
+        right: 195px;
+    }    
+    #support {
+        padding: 22px 0px;
+
+    }
+    #support section.container div.left h1 {
+        font-size: 34px;
+        width: 70%;
+    }
+    #support section.container div.left p {
+        width: 74%;
+        font-size: 17px;
+    }
+    #support section.container div.left a.button {
+        padding: 12px 16px;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+    #support section.container div.right {
+        width: 52%;
+    }
+    #support section.container div.right {
+        width: 52%;
+    }
+    #testimonial div.top p {
+        font-size: 14px;
+    }
+    #testimonial div.bottom ul.main li p {
+        margin-top: 15px;
+        width: 90%;
+        font-size: 14px;
+    }
+    #subscribe section.container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #subscribe section.container div.left p {
+        width: 70%;
+        margin-bottom: 15px;
+    }
+    footer section.top div.one{
+        font-size: 19px;
+    }
+}
+/* 980 end */
+@media all and (max-width: 768px) {
+    header section.container div.middle ul li a {
+        font-size: 13px;
+    }
+    header section.container div.middle ul li a.button {
+        padding: 11px 14px;
+    }
+    #spotlight section.container div.left h6 {
+        margin-left: 14px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    #spotlight section.container div.left div.img {
+        width: 20px;
+    }
+    
+    #spotlight {
+        padding: 0px 0px;
+    }
+    header {
+        padding: 30px 0px 25px 0px;
+    }
+    #spotlight section.container div.right {
+        width: 47%;
+        height: 47%;
+        margin-top: 72px;
+    }
+    #spotlight section.container div.left h1 {
+        font-size: 26px;
+        width: 100%;
+    }
+    #spotlight section.container div.left form {
+        margin-top: 36px;
+}
+#spotlight section.container div.left form input {
+    height: 60px;
+}
+#spotlight section.container div.left form button {
+    height: 46px;
+    width: 122px;
+    left: 159px;
+    bottom: 7px;
+}
+#spotlight div.bottom div.p small {
+    font-size: 10px;
+}
+#spotlight div.bottom ul li {
+    /* margin-right: -10px; */
+    width: 18%;
+}
+#archive {
+    padding: 70px 0px;
+}
+#archive section.container ul li div.round {
+    width: 45px;
+    height: 45px;
+}
+#archive section.container ul li div.content h2 {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+#archive section.container div.left h1 {
+    font-size: 19px;
+    width: 95%;
+
+}
+#archive section.container div.left h5 {
+    font-size: 12px;
+}
+#archive section.container ul li div.content p {
+    font-size: 14px;
+    color: rgb(127, 127, 127);
+    width: 118%;
+}
+#help section.container div.top h1 {
+    font-size: 36px;
+    width: 91%;
+    margin-bottom: 25px;
+}
+#help section.container div.top small {
+    font-size: 15px;
+}
+#help section.container div.bottom ul li {
+    width: 32%;
+    height: 285px;
+}
+#help section.container div.bottom ul li div.round {
+    width: 50px;
+    height: 50px;
+}
+#help section.container div.bottom ul li div.content h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+#help section.container div.bottom ul li div.content p {
+    font-size: 14px;
+    width: 75%;
+}
+#help section.container div.bottom div.button {
+    padding: 19px 20px;
+    margin-top: 25px;
+}
+#help section.container div.bottom div.button a.butoon {
+    font-size: 12px;
+}
+.middle {
+    padding: 14px 0px;
+}
+#price {
+    height: 573px;
+}
+#price section.container form {
+    border-radius: 10px;
+    width: 51%;
+    height: 41px;
+    bottom: -31px;
+    right: 157px;
+}
+#price section.container div.form input {
+    width: 69%;
+    padding: 12px;
+    font-size: 13px;
+    font-family: "Gordita Bold";
+}
+#price section.container div.form a.button {
+    border-radius: 8px;
+    height: 35px;
+    font-size: 12px;
+    width: 94px;
+    padding: 10px;
+}
+#price section.container div.box h2 {
+    font-size: 25px;
+    margin-bottom: 19px;
+}
+#price section.container div.box {
+    height: 341px;
+}
+#price section.container div.box small {
+    margin-right: 164px;
+    font-size: 23px;
+}
+#price section.container div.box span.round {
+    left: 82px;
+}
+#support section.container div.left h1 {
+    font-size: 24px;
+    width: 78%;
+}
+#support section.container div.left p {
+    width: 93%;
+    font-size: 13px;
+    margin: 27px 0px;
+}
+#support section.container div.right ul li:first-child {
+    margin-bottom: 49px;
+}
+#support section.container div.right ul li h3 {
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+#support section.container div.right ul li p {
+    width: 87%;
+    margin-bottom: 12px;
+}
+#testimonial {
+    padding: 0px 0px;
+}
+#testimonial div.top h2 {
+    font-size: 39px;
+    margin-bottom: 14px;
+}
+#testimonial div.bottom ul.main li {
+    width: 33%;
+}
+#testimonial div.bottom ul.main li p {
+    margin-top: 15px;
+    width: 98%;
+    font-size: 11px;
+}
+#subscribe section.container {
+    padding: 37px 15px;
+}
+footer section.top div.one h1{
+    flex-wrap: wrap;
+}
+footer section.top div.one h1 a {
+    width: 30%;
+    margin-right:5px;
+}
+footer section.top small {
+    display: none;
+}
+}
+@media all and (max-width: 640px) {
+  
+}
+@media all and (max-width: 360px) {
+}
